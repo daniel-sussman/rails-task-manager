@@ -1,0 +1,5 @@
+<h2><%= @task.title %></h2>
+<h3><%= @task.details %></h3>
+<br>
+<h3><%= @task.completed ? "This task is complete." : "This task is not completed yet." %></h3>
+<p><%= link_to "Back to tasks organizer", tasks_path %></p>
